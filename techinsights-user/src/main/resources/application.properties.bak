@@ -1,0 +1,14 @@
+spring.application.name=user-server
+spring.cloud.nacos.discovery.username=nacos
+spring.cloud.nacos.discovery.password=SSSddd111222333
+spring.cloud.nacos.discovery.server-addr=117.68.98.61:8848
+spring.cloud.nacos.discovery.namespace=techinsights
+spring.cloud.nacos.config.server-addr=117.68.98.61:8848
+spring.cloud.nacos.config.username=nacos
+spring.cloud.nacos.config.password=SSSddd111222333
+spring.cloud.nacos.config.namespace=techinsights
+spring.cloud.nacos.config.group=DATABASE_GROUP
+spring.cloud.nacos.config.contextPath=/nacos
+spring.config.import=nacos:techinsights-database.properties?group=DATABASE_GROUP?refresh=true
+
+

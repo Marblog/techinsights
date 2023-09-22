@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: techinsights-user
+  cloud:
+    nacos:
+      config:
+        username: nacos
+        password: SSSddd111222333
+        namespace: techinsights
+        server-addr: 117.68.98.61:8848
+      discovery:
+        username: nacos
+        password: SSSddd111222333
+        namespace: techinsights
+        server-addr: 117.68.98.61:8848
+  config:
+    import:
+      - optional:nacos:techinsights-database.properties?group=DEFAULT_GROUP?refresh=true
+      - optional:nacos:user-server.properties?group=DEFAULT_GROUP?refresh=true

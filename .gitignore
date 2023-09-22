@@ -1,0 +1,4 @@
+# 项目排除路径
+/.gradle/
+/techinsights-article/build/
+/techinsights-user/build/
