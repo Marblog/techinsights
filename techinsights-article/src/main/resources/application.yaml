@@ -1,6 +1,6 @@
 spring:
   application:
-    name: techinsights-user
+    name: techinsights-article
   cloud:
     nacos:
       config:
@@ -17,4 +17,4 @@ spring:
   config:
     import:
       - optional:nacos:techinsights-database.properties?group=DEFAULT_GROUP?refresh=true
-      - optional:nacos:techinsights-user.properties?group=DEFAULT_GROUP?refresh=true
+      - optional:nacos:techinsights-article.properties?group=DEFAULT_GROUP?refresh=true
